@@ -1,11 +1,17 @@
-import Path from './Components/Route'; 
+import { BrowserRouter , Routes , Route  } from 'react-router-dom';
+
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
+import LoginPage from './Components/LoginPage';
 
 function App() {
   return (
     <>
-    <Navbar/>
+      <BrowserRouter>
+         <Routes>
+             <Route  path="/" element={<Home/>}>Home</Route>
+             <Route path="/Login" element={<LoginPage/>}>LoginPage</Route>
+         </Routes>
+      </BrowserRouter>
     </>
   );
 }

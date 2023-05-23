@@ -1,8 +1,11 @@
+import Navbar from "./Navbar";
+
 function Home(){
     return(
         <>
         <div>
-            <p>  This Home Page</p>
+            <Navbar/>
+            <p>This Home Page</p>
         </div>
         </>
     )

@@ -1,5 +1,18 @@
-.main-container{
-    height: 50px;
+.nav-container {
+    background-color: yellowgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-menu {
     color: black;
-    background-color: aqua;
-}
+    text-decoration: none;
+    background-color: tomato;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px 10px;
+  }
+  
