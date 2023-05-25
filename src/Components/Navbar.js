@@ -10,11 +10,8 @@ function Navbar(){
       <Link to="/Login" className="nav-menu">
         Login
       </Link>
-      <Link to="/Contact" className="nav-menu">
-        Contact
-      </Link>
-      <Link to="/Chocolate" className="nav-menu">
-        Chocolate
+      <Link to="/Cards" className="nav-menu">
+        Cards
       </Link>
     </div>
     </>
