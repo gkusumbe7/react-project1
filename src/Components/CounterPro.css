@@ -1,0 +1,34 @@
+.text-heading{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.app-heading{
+    text-align: center;
+}
+.counter-text{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.btn-increment{
+    background-color: green;
+    color: white;
+    border-color: black;
+    
+}
+.btn-decrement{
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+.btn-container{
+    text-align: center;
+}

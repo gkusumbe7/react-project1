@@ -13,7 +13,7 @@ function Navbar(){
       <Link to="/Cards" className="nav-menu">
         Cards
       </Link>
-      <Link to="/UseState" className="nav-menu">
+      <Link to="/CounterPro" className="nav-menu">
         UseState
       </Link>
     </div>
