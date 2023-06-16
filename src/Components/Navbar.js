@@ -13,6 +13,9 @@ function Navbar(){
       <Link to="/Cards" className="nav-menu">
         Cards
       </Link>
+      <Link to="/UseState" className="nav-menu">
+        UseState
+      </Link>
     </div>
     </>
   );
