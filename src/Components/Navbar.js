@@ -16,6 +16,9 @@ function Navbar(){
       <Link to="/CounterPro" className="nav-menu">
         UseState
       </Link>
+      <Link to="/Score" className="nav-menu">
+        Score
+      </Link>
     </div>
     </>
   );
