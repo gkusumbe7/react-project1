@@ -58,7 +58,8 @@ function Score(){
                             alert("score not negative")
                         }else{
                         setTeamscoreA(teamscoreA - 1)}
-                     }}>-</button>           
+                     }}>-</button>   
+                     <div></div>        
                 </div>
 
                <div className="team-card">
@@ -74,7 +75,7 @@ function Score(){
                         setTeamscoreB(teamscoreB - 1)
                     }
                      }}>-</button>
-                        
+                        <div></div>
                 </div>
             </div>
        </div>
