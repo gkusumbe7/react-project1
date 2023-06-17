@@ -4,10 +4,82 @@
     justify-content: center;
     align-items: center; */
     /* width: 100%; */
+    justify-content: center;
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
     margin-top: 20px;
+    align-items: center;
+}
+.s-card{
+    /* margin-left: 200px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    margin-top: 20px;
+    background-color: rgb(225, 240, 240);
+    height: 600px;
+    align-items: center;
+    width: 800px; */
+    justify-content: center;
+    background-color: #021d1f;
+    border-radius: 5px;
+    width: 900px;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    margin-top: 20px;
+    align-items: center;
+}
+.team-box{
+    display: flex;
+    justify-content:center;
+}
+.score-h-name{
+    color: aqua;
+    font-size: 70px;
+    text-align: center;
+}
+.team-card{
+    padding: 10px;
+    width: 300px;
+    height:400px;
+    background-color: rgb(59, 230, 130);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.t-name{
+    font-weight: 500;
+    font-display: bold;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(1, 8, 7);
+}
+.inc {
+    background-color: rgb(233, 29, 63);
+}
+.dec{
+    background-color: rgb(189, 226, 23);
+}
+.button{
+    font-weight: 800;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 40px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+
+}
+.score{
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
 }
