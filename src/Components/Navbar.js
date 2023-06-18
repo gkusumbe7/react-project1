@@ -17,7 +17,10 @@ function Navbar(){
         UseState
       </Link>
       <Link to="/Score" className="nav-menu">
-        Score
+        Score  
+      </Link>
+      <Link to="/Project" className="nav-menu">
+        Project  
       </Link>
     </div>
     </>
